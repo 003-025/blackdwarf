@@ -16,7 +16,7 @@ const { Messages } = require("openai/resources/chat/completions.js");
             function revealContent(){
                 alert("Are you sure you want to continue?");
                 let content=`<a href="real_scripting.html">GO</a>`;
-                document.getElementById('content').innerHTML =`<a style="color:brown;" href="real_scripting.html"class="btn">GO</a>`; 
+                document.getElementById('content').innerHTML =`<a style="color:brown;" href="real_scripting.html"class="btn">GO</a></a><p style="color:white;">Continue to Black Dwarf</p>`; 
             }
             function agreement(){
                 let words= document.getElementById('myWords').value;
